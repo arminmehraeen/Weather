@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="@color/colorWhite"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_5sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="left"
+            android:layoutDirection="ltr"
+            android:textDirection="ltr"
+            android:id="@+id/txt_city"
+            android:padding="@dimen/_20sdp"
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/_12sdp"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/family"
+            android:text="tehran"/>
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_gravity="center"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/close_btn"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
